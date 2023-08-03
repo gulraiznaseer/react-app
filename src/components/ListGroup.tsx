@@ -23,8 +23,8 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
             }
             key={item}
             onClick={() => {
-              setSelectedIndex(index)
-              onSelectItem(item)
+              setSelectedIndex(index);
+              onSelectItem(item);
             }}
           >
             {item}
