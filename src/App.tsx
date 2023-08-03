@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <Alert text="Hello World!" />
+      <Alert>"Hwllo World!"</Alert>
     </div>
   );
 }
