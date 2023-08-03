@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div>
-      <Alert>"Hwllo World!"</Alert>
+      <Alert>
+        <span>Hello World!</span>
+      </Alert>
     </div>
   );
 }
