@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <Button>Click Buton</Button>
+      <Button onClick={() => console.log("Clicked")}>Click Buton</Button>
     </div>
   );
 }
